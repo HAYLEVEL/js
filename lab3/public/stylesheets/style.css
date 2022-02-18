@@ -1,0 +1,343 @@
+    body {
+        /*background: url(/images/b.jpg) no-repeat;*/
+        background-color: #ffffff;
+        background-size: 100%;
+    }
+    
+    .description {
+        display: inline-block;
+    }
+    
+    .topnav {
+        background-color: rgb(41, 41, 41);
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 60px;
+    }
+    
+    .logo {
+        float: left;
+        position: relative;
+        left: 20;
+    }
+    
+    .image img {
+        position: absolute;
+        top: 5;
+        left: 5;
+        width: 48px;
+        height: 50px;
+    }
+    
+    .logo a {
+        color: #cacaca;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .name {
+        position: relative;
+        left: 30px;
+        top: 13px;
+    }
+    
+    .menu {
+        float: right;
+        position: relative;
+        right: 400;
+        top: 5px;
+    }
+    
+    .menu a {
+        margin-left: 100px;
+        float: left;
+        color: #cacaca;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .menu a:hover {
+        color: #ddd;
+    }
+    
+    .left_img {
+        position: absolute;
+        left: 0;
+        top: 60;
+        width: 15%;
+        height: 91%;
+        background: url(/images/orn.jpg)
+    }
+    
+    .right_img {
+        position: absolute;
+        right: 0;
+        top: 60;
+        width: 15%;
+        height: 91%;
+        background: url(/images/orn.jpg)
+    }
+    
+    .page footer {
+        background-color: rgb(41, 41, 41);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        color: blanchedalmond;
+    }
+    
+    .content {
+        position: absolute;
+        top: 80;
+        left: 20;
+        right: 20;
+        bottom: 40px;
+    }
+    
+    .content a {
+        font-size: 25px;
+    }
+    /*.table {
+        width: 1000px;
+        height: 500px;
+    }
+    
+    .table td {
+        background-color: rgb(41, 41, 41);
+        border-radius: 0px;
+        border: 2px solid rgb(112, 112, 112);
+        height: 50px;
+    }
+    
+    .atributes td {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    .users td {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .users a {
+        color: rgb(255, 255, 255);
+    }*/
+    
+    .intro {
+        display: table;
+    }
+    
+    .intro img {
+        display: table-cell;
+        width: 700px;
+    }
+    
+    .intro div {
+        display: table-cell;
+        padding-left: 80px;
+    }
+    
+    .intro div a {
+        vertical-align: 300px;
+    }
+    
+    .biography tr {
+        top: 0;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    
+    .data {
+        position: absolute;
+        top: 0;
+        left: 40%;
+        right: 5%;
+    }
+    
+    .data a {
+        font-size: 50px;
+    }
+    
+    .data p {
+        font-size: 40px;
+    }
+    
+    .list {
+        float: left;
+    }
+    
+    .forma {
+        position: relative;
+        left: 50px;
+        float: left;
+        text-align: center;
+    }
+    
+    .forma input {
+        width: 300px;
+    }
+    
+    .pagination {
+        position: absolute;
+        top: 300px;
+    }
+    
+    .search {
+        position: absolute;
+        left: 1100px;
+        top: 0px;
+    }
+    
+    .current {
+        float: left;
+        position: relative;
+        left: 350px;
+        background-color: rgb(41, 41, 41);
+        /* Green */
+        border: none;
+        padding: 15px 32px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .prev {
+        float: left;
+        position: relative;
+        left: 2px;
+        background-color: rgb(41, 41, 41);
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .dontsearch {
+        position: relative;
+        top: -37px;
+        left: 58px;
+    }
+    
+    .next {
+        float: left;
+        position: absolute;
+        left: 890px;
+        background-color: rgb(41, 41, 41);
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .create {
+        float: left;
+        position: absolute;
+        left: 1100px;
+        top: 299px;
+        background-color: rgb(41, 41, 41);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .select {
+        position: absolute;
+        top: 100px;
+        left: 380px;
+    }
+    
+    table {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 14px;
+        border-radius: 10px;
+        border-spacing: 0;
+        text-align: center;
+    }
+    
+    th {
+        background: rgb(41, 41, 41);
+        color: white;
+        text-shadow: 0 1px 1px #2D2020;
+        padding: 10px 20px;
+    }
+    
+    th,
+    td {
+        border-style: solid;
+        border-width: 0 1px 1px 0;
+        border-color: white;
+    }
+    
+    th:first-child,
+    td:first-child {
+        text-align: left;
+    }
+    
+    th:first-child {
+        border-top-left-radius: 10px;
+    }
+    
+    th:last-child {
+        border-top-right-radius: 10px;
+        border-right: none;
+    }
+    
+    td {
+        padding: 10px 20px;
+        background: #c0b47c;
+    }
+    
+    tr:last-child td:first-child {
+        border-radius: 0 0 0 10px;
+    }
+    
+    tr:last-child td:last-child {
+        border-radius: 0 0 10px 0;
+    }
+    
+    tr td:last-child {
+        border-right: none;
+    }
+    
+    .biography td {
+        position: relative;
+        left: -20px;
+        background: #ffffff;
+    }
+    
+    .delete {
+        position: relative;
+        top: 20px;
+    }
+    
+    .photo {
+        position: absolute;
+        top: 500px;
+        left: 750px;
+    }

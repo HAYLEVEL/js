@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+    {{> head}}
+    <title>Websites</title>
+</head>
+
+<body>
+<div class = "page">
+        {{> header}}
+        <div class="description">   
+
+            <!--<div class="left_img"></div>-->
+            <div class="content">
+            <table class="table" width=996px border="0">
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Date of creating</th>
+                    </tr>
+                    {{#arr}}
+                    <tr>
+                        <td><a href="/websites/{{id}}">{{name}}</a></td>
+                        <td><a href="/websites/{{id}}">{{address}}</a></td>
+                        <td><a>{{date_of_creating}}</a></td>
+                    </tr>
+                    {{/arr}}
+                    {{^arr}}
+                    <tr>
+                    <td colspan="3" >Page not found</td>
+                    </tr>
+                    {{/arr}}
+                </table>
+                <div class="pagination">
+                    <a class="prev" href="/websites?page={{prev}}&name={{name}}">prev</a>
+                    <a class="current">{{currnall}}</a>
+                    <a class="next" href="/websites?page={{next}}&name={{name}}">next</a>
+                </div>
+                <div class="search">
+                <form action="/websites/" method="GET">
+                Website name:<br>
+                <input type="text" name="name" value={{start}}><br>
+                Notification:<br>
+	            <textarea name="message" rows="1" cols="60" readonly="readonly">{{str}}</textarea>
+	            <br>
+                <input type="submit" value="Search">
+                <br>
+                Input number of the page:<br><input type="text" name="page" value={{current}}>
+                <input type="submit" value="Go to page">
+                </form>
+                </div>
+                <a class="create" href="/websites/new">Create a website</a>
+                </div>
+            <!--<div class="right_img"></div>-->
+        </div>
+        {{> footer}}
+    </div>
+</body>
+
+</html>

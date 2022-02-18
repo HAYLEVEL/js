@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+    {{> head}}
+    <title>Website</title>
+</head>
+
+<body>
+<div class = "page">
+        {{> header}}
+        <div class="description">
+            <!--<div class="left_img"></div>-->
+            <div class="content">
+            <div class="intro">
+                {{#website}}
+                    <img src="/images/w{{id}}.jpg" width=590px>
+                    <div class="data">
+                        <a>{{name}}</a>
+                        <p>{{address}}</p>
+                        <table class="biography" width=100% height=100% border="0">
+                            <tr>
+                                <td>{{description}}</td>
+                            </tr>
+                        </table>
+                        <a href={{url}}>Look at photo</a>
+                        <form class="delete" method="POST" action="/websites/{{id}}">
+                        <input type="submit" value="delete website">
+                        </form>
+                        {{/website}}
+                    </div>
+                </div></div>
+            <!--<div class="right_img"></div>-->
+        </div>
+        {{> footer}}
+    </div>
+</body>
+
+</html>

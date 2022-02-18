@@ -1,0 +1,32 @@
+{
+  "nextId": 5,
+  "items": [
+    {
+      "id": 1,
+      "login": "admin",
+      "fullname": "Admin Admin",
+      "role": "1",
+      "registeredAt": "2020-10-15T17:42:07.321Z",
+      "avaUrl": "32",
+      "isEnabled": "1"
+    },
+    {
+      "id": 2,
+      "login": "testUser",
+      "fullname": "Test User",
+      "role": "1",
+      "registeredAt": "2020-10-15T17:42:07.321Z",
+      "avaUrl": "32333",
+      "isEnabled": "1"
+    },
+    {
+      "id": 3,
+      "login": "XUser",
+      "fullname": "X User",
+      "role": "1",
+      "registeredAt": "2020-10-15T17:42:07.321Z",
+      "avaUrl": "32333",
+      "isEnabled": "1"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+    {{> head}}
+    <title>Users</title>
+</head>
+
+<body>
+<div class = "page">
+        {{> header}}
+        <div class="description">
+            <!--<div class="left_img"></div>-->
+            <div class="content">
+            <div class="list">
+            <table class="table" width=996px border="0">
+                    <tr>
+                        <th>Login</th>
+                        <th>Fullname</th>
+                        <th>Registered</th>
+                    </tr>
+                    {{#arr}}
+                    <tr><td><a href='/users/{{id}}'>{{login}}</a></td>
+                        <td><a href='/users/{{id}}'>{{fullname}}</a></td>
+                        <td><a>{{registeredAt}}</a></td>
+                        {{/arr}}
+                    {{^arr}}
+                    <tr>
+                    <td colspan="3" >Page not found</td>
+                    </tr>
+                    {{/arr}}
+                </table>
+                <div class="pagination">
+                    <a class="prev" href="/users?page={{prev}}">prev</a>
+                    <a class="current">{{currnall}}</a>
+                    <a class="next" href="/users?page={{next}}">next</a>
+                    <form class="select" action="/users/" method="GET">
+                    <br>
+                Input number of the page:<br><input type="text" name="page">
+                    <input type="submit" value="Go to page">
+                    </form>
+                </div>
+            </div>
+            </div>
+            <!--<div class="right_img"></div>-->
+        </div>
+        {{> footer}}
+    </div>
+</body>
+
+</html>

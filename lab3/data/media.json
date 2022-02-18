@@ -1,0 +1,45 @@
+{
+    "nextId": 11,
+    "items": [
+        {
+            "id": 1,
+            "path": "data/media/cherep_kapyushon_uzhasy_1606.jpg"
+        },
+        {
+            "id": 2,
+            "path": "./data/media/photo_2019-06-17_18-02-53.jpg"
+        },
+        {
+            "id": 3,
+            "path": "./data/media/photo_2019-06-17_18-02-53.jpg"
+        },
+        {
+            "id": 4,
+            "path": "./data/media/1.jpg"
+        },
+        {
+            "id": 5,
+            "path": "./data/media/1.jpg"
+        },
+        {
+            "id": 6,
+            "path": "./data/media/orn.jpg"
+        },
+        {
+            "id": 7,
+            "path": "./data/media/1.jpg"
+        },
+        {
+            "id": 8,
+            "path": "./data/media/astralis.jpg"
+        },
+        {
+            "id": 9,
+            "path": "./data/media/g2.jpg"
+        },
+        {
+            "id": 10,
+            "path": "./data/media/g2.jpg"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+    {{> head}}
+    <title>User</title>
+</head>
+
+<body>
+<div class = "page">
+{{> header}}
+<div class="description">
+<!--<div class="left_img"></div>-->
+<div class="content">
+        <form method="POST" action="/websites/" enctype="multipart/form-data">
+  Name of the website:<br>
+  <input type="text" name="name" value="some site"><br>
+  Address of the website:<br>
+  <input type="text" name="address" value="somesite.com"><br>
+  Visits per day:<br>
+  <input type="text" name="visits_per_day" value=228><br>
+  Count of ad bunners:<br>
+  <input type="text" name="count_of_ad_bunners" value=337><br>
+  Date of creating:<br>
+  <input type="text" name="date_of_creating" value="2020-11-11"><br>
+  Description:<br>
+  <input type="text" name="description" value="Этот сайт станет лучшим в 2021 году"><br>
+  <input type="file" name="photoFile">
+  <input type="submit" value="Submit">
+</form>
+
+</div>
+</div>
+<!--<div class="right_img"></div>-->
+{{> footer}}
+</div>
+</body>
+
+</html>

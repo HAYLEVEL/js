@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+    {{> head}}
+    <title>User</title>
+</head>
+
+<body>
+<div class = "page">
+{{> header}}
+<div class="description">
+<!--<div class="left_img"></div>-->
+<div class="content">
+        <div class="intro">
+            {{#user}}
+            <img src="/images/{{id}}.jpg">
+            <div class="data">
+                <a>{{fullname}}</a>
+                <p>({{login}}) {{registeredAt}}</p>
+                <table class="biography" width=100% height=100% border="0">
+                    <tr>
+                        <td>{{biography}}</td>
+                    </tr>
+                </table>
+            </div>
+            {{/user}}
+        </div>
+</div>
+</div>
+<!--<div class="right_img"></div>-->
+{{> footer}}
+</div>
+</body>
+
+</html>

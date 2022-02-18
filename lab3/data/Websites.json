@@ -1,0 +1,69 @@
+{
+    "nextId": 8,
+    "items": [
+        {
+            "id": 1,
+            "name": "Youtube",
+            "address": "youtube.com",
+            "visits_per_day": 9999556,
+            "count_of_ad_bunners": 900,
+            "date_of_creating": "1245-11",
+            "description": "YouTube — видеохостинг, предоставляющий пользователям услуги хранения, доставки и показа видео. YouTube стал популярнейшим видеохостингом и вторым сайтом в мире по количеству посетителей."
+        },
+        {
+            "id": 2,
+            "name": "Telegram",
+            "address": "telegram.ru",
+            "visits_per_day": 7823,
+            "count_of_ad_bunners": 0,
+            "date_of_creating": "2015-12",
+            "description": "Telegram — кроссплатформенный мессенджер, позволяющий обмениваться сообщениями и медиафайлами многих форматов. Клиентские приложения Telegram доступны для Android, iOS, Windows Phone, Windows, macOS и GNU/Linux."
+        },
+        {
+            "id": 3,
+            "name": "HLTV",
+            "address": "hltv.org",
+            "visits_per_day": 2228,
+            "count_of_ad_bunners": 15,
+            "date_of_creating": "2004-05",
+            "description": "Переведено с английского языка.-HLTV, ранее являвшийся аббревиатурой Half-Life Television, является новостным веб-сайтом и форумом, посвященным профессиональным новостям, турнирам и статистике Counter-Strike: Global Offensive. Это один из ведущих сайтов в сообществе Counter-Strike с более чем 4 миллионами уникальных посетителей"
+        },
+        {
+            "id": 4,
+            "name": "Twitch",
+            "address": "twitch.com",
+            "visits_per_day": 23425324,
+            "count_of_ad_bunners": 2342,
+            "date_of_creating": "2011-11",
+            "description": "Twitch — видеостриминговый сервис, специализирующийся на тематике компьютерных игр, в том числе трансляциях геймплея и киберспортивных турниров. Видео на платформе Twitch можно просматривать как в реальном времени, так и по запросу. Twitch принадлежит Twitch Interactive — дочерней компании Amazon."
+        },
+        {
+            "id": 5,
+            "name": "Coursera",
+            "address": "coursera.com",
+            "visits_per_day": 2323,
+            "count_of_ad_bunners": 0,
+            "date_of_creating": "2015-12",
+            "description": "Coursera — проект в сфере массового онлайн-образования, основанный профессорами информатики Стэнфордского университета Эндрю Ыном и Дафной Коллер. В его рамках существует проект по публикации образовательных материалов в интернете в виде набора онлайн-курсов."
+        },
+        {
+            "id": 6,
+            "name": "Google class",
+            "address": "classroom.google.com",
+            "visits_per_day": 342,
+            "count_of_ad_bunners": 234,
+            "date_of_creating": "2004-05",
+            "description": "Google Класс — бесплатный веб-сервис, разработанный Google для школ, который призван упростить создание, распространение и оценку заданий безбумажным способом. Основная цель Google Класс — упростить процесс обмена файлами между учителями и учениками."
+        },
+        {
+            "name": "some site",
+            "address": "somesite.com",
+            "visits_per_day": "228",
+            "count_of_ad_bunners": "337",
+            "date_of_creating": "2020-11-11",
+            "description": "Этот сайт станет лучшим в 2021 году",
+            "url": "/data/media/1.jpg",
+            "id": 7
+        }
+    ]
+}
