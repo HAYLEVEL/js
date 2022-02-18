@@ -1,0 +1,45 @@
+{
+  "nextId": 7,
+  "items": [
+    {
+      "id": 1,
+      "brand": "MTC",
+      "fullname": "Kolya",
+      "price": "34,3",
+      "registeredAt": "2020-10-15T18:05:39.701Z",
+      "consumers": "32.3"
+    },
+    {
+      "id": 2,
+      "brand": "Test User",
+      "fullname": "Admin Admin",
+      "price": "1",
+      "registeredAt": "12",
+      "consumers": "32333"
+    },
+    {
+      "id": 3,
+      "brand": "X User",
+      "fullname": "Admin Admin",
+      "price": "1",
+      "registeredAt": "2020-10-15T17:42:07.321Z",
+      "consumers": "32"
+    },
+    {
+      "id": 5,
+      "brand": "zxc",
+      "fullname": "zxc",
+      "price": "3",
+      "registeredAt": "2020-10-15T17:42:07.321Z",
+      "consumers": "3"
+    },
+    {
+      "id": 6,
+      "brand": "qweee",
+      "fullname": "qweerrr",
+      "price": "123",
+      "registeredAt": "2021-03-22T14:40:24.839Z",
+      "consumers": 2
+    }
+  ]
+}
